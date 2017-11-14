@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyTitle>MiniGrpc.Client</AssemblyTitle>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.0</TargetFrameworks>
+    <DebugType>portable</DebugType>
+    <AssemblyName>MiniGrpc.Client</AssemblyName>
+    <PackageId>MiniGrpc.Client</PackageId>
+    <OutputType>Exe</OutputType> 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MiniGrpc.Common\MiniGrpc.Common.csproj" />
+  </ItemGroup>
+
+</Project>
